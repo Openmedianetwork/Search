@@ -1,0 +1,14 @@
+[Unit]
+Description=filtron proxy
+
+[Service]
+Type=simple
+User=filtron
+Environment="GOPATH=/usr/local/filtron/.go"
+ExecStart=/usr/local/filtron/.go/bin/filtron -rules /usr/local/filtron/rules.json
+
+TimeoutSec=15
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
