@@ -1,6 +1,6 @@
 # Open Media Network Search
 
-On https://openworlds.info/ we run an instance of the [Searx](https://asciimoo.github.io/searx/).
+On https://openworlds.info/ we run [Searx](https://asciimoo.github.io/searx/).
 
 Searx is a metasearch engine, aggregating the results of other search engines while not storing information about its users.
 
